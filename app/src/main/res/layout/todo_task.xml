@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/linearLayout"
+    android:layout_marginTop="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="358dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/buttonCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/layout_border4"
+            android:text="Adicionar uma tarefa"
+            android:textColor="#fff"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="26dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="4dp"
+            android:text="teste01"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/buttonCheckBox"
+            app:layout_constraintTop_toTopOf="@+id/buttonCheckBox"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/layout_border3"
+            app:layout_constraintStart_toStartOf="@+id/buttonCheckBox"
+            app:layout_constraintTop_toTopOf="@+id/buttonCheckBox"
+            tools:ignore="MissingConstraints"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
